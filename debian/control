@@ -1,0 +1,16 @@
+Source: linux
+Priority: optional
+Maintainer: Jacob chen <jacob.chen@rock-chips.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Section: libs
+Homepage: http://www.rock-chips.com/
+
+Package: rk-kernel
+Architecture: any
+Depends: 
+Multi-Arch: same
+Description: The kernel file for Rockchip.
+ .
+ The Linux kernel  and modules for use on rockchip platform.
+
