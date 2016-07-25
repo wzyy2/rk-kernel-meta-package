@@ -1,0 +1,10 @@
+This is a example of kernel debian package, it could help you pack your kernel as a deb.
+
+First, you need install the requirements.
+apt-get install dh-exec devscripts
+
+Then ,Opening debian/changelog and modifying version string.
+Copying your kernel and config file to boot/.
+
+Afrer all, enter `debuild -i -us -uc -b` to build package.
+
